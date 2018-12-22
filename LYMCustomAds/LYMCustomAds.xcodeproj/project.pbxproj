@@ -13,6 +13,9 @@
 		D555E34C21CE143700BD3473 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D555E34B21CE143700BD3473 /* Assets.xcassets */; };
 		D555E34F21CE143700BD3473 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D555E34D21CE143700BD3473 /* LaunchScreen.storyboard */; };
 		D555E35221CE143700BD3473 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D555E35121CE143700BD3473 /* main.m */; };
+		D555E35E21CE14BC00BD3473 /* NSTimer+LymTimerBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = D555E35A21CE14BB00BD3473 /* NSTimer+LymTimerBlock.m */; };
+		D555E35F21CE14BC00BD3473 /* LYMAutoRollingMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D555E35C21CE14BC00BD3473 /* LYMAutoRollingMessageView.m */; };
+		D555E36021CE14BC00BD3473 /* LYMMessageRollCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D555E35D21CE14BC00BD3473 /* LYMMessageRollCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		D555E34E21CE143700BD3473 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D555E35021CE143700BD3473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D555E35121CE143700BD3473 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D555E35821CE14BB00BD3473 /* LYMMessageRollCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYMMessageRollCell.h; sourceTree = "<group>"; };
+		D555E35921CE14BB00BD3473 /* NSTimer+LymTimerBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+LymTimerBlock.h"; sourceTree = "<group>"; };
+		D555E35A21CE14BB00BD3473 /* NSTimer+LymTimerBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+LymTimerBlock.m"; sourceTree = "<group>"; };
+		D555E35B21CE14BB00BD3473 /* LYMAutoRollingMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYMAutoRollingMessageView.h; sourceTree = "<group>"; };
+		D555E35C21CE14BC00BD3473 /* LYMAutoRollingMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYMAutoRollingMessageView.m; sourceTree = "<group>"; };
+		D555E35D21CE14BC00BD3473 /* LYMMessageRollCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYMMessageRollCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 		D555E34121CE143600BD3473 /* LYMCustomAds */ = {
 			isa = PBXGroup;
 			children = (
+				D555E35B21CE14BB00BD3473 /* LYMAutoRollingMessageView.h */,
+				D555E35C21CE14BC00BD3473 /* LYMAutoRollingMessageView.m */,
+				D555E35821CE14BB00BD3473 /* LYMMessageRollCell.h */,
+				D555E35D21CE14BC00BD3473 /* LYMMessageRollCell.m */,
+				D555E35921CE14BB00BD3473 /* NSTimer+LymTimerBlock.h */,
+				D555E35A21CE14BB00BD3473 /* NSTimer+LymTimerBlock.m */,
 				D555E34221CE143600BD3473 /* AppDelegate.h */,
 				D555E34321CE143600BD3473 /* AppDelegate.m */,
 				D555E34521CE143600BD3473 /* ViewController.h */,
@@ -142,6 +157,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D555E34721CE143600BD3473 /* ViewController.m in Sources */,
+				D555E36021CE14BC00BD3473 /* LYMMessageRollCell.m in Sources */,
+				D555E35E21CE14BC00BD3473 /* NSTimer+LymTimerBlock.m in Sources */,
+				D555E35F21CE14BC00BD3473 /* LYMAutoRollingMessageView.m in Sources */,
 				D555E35221CE143700BD3473 /* main.m in Sources */,
 				D555E34421CE143600BD3473 /* AppDelegate.m in Sources */,
 			);
